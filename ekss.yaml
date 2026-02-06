@@ -4,7 +4,8 @@ kind: ClusterConfig
 metadata:
   name: expense
   region: us-east-1
-
+  autoModeConfig:
+  enabled: false
 managedNodeGroups:
   - name: expense
     instanceTypes:
@@ -17,4 +18,4 @@ managedNodeGroups:
 
   ### good -----------
 
-  ###every thing is ok pppppppppppp
+  ###every thing is ok pppppppppppppppS
